@@ -8,8 +8,7 @@
 			<th scope="row">1.py</th>
 		</tr>
 	</thead>
-	<tbody>
-	</tbody>
+	
 </table>
 
 <table align="center" border="1" ">
@@ -43,10 +42,5 @@
 
 
 
-</body>
-</html>
-</br>
-<br>
-</br>
 </body>
 </html>

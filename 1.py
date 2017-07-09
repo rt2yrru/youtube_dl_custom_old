@@ -52,13 +52,17 @@ ydl_opts = {
     'progress_hooks': [my_hook],
 }
 
-_url_='https://spankbang.com/1cqol/video/gdp+666'
-#_url_=input("\n Enter the video url :")
+_url_=[''] #list declared
+#_url_.append('')  # extend the list 
 #_i=len(_url_)
 #list
 
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-    ydl.download([_url_]) 
+    for item in _url_: 
+        _a_+=1
+        ydl.download([item]) 
+        _str_="downloading "+str(_a_)+" of "+str(len(_url_))
+        os.system('notify-send '+_str_) 
    
     
  

@@ -33,6 +33,6 @@
 		</tr>
 	</tbody>
 </table>
-
+https://travis-ci.org/siddht1/youtube-dl.svg?branch=master
 </body>
 </html>

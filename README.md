@@ -16,12 +16,6 @@
 
 		
 
-
-
-
-#Build
-<img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status">
-
 #Next
 
       - Add a script which will start a new download as soon as the status reaches 95 %
@@ -45,3 +39,17 @@
       This is a form of looping,while loop to be exact,but has to handled
 
 
+#BUILD
+
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td>  rg3:youtube-dl </td>
+<td> Build Status</td>
+<td><img src="https://travis-ci.org/rg3/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
+</tr>
+<tr>
+<td> siddht1:youtube-dl (fork) </td>
+<td> Build Status</td>
+<td><img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
+</tr>
+</table> 

@@ -5,9 +5,13 @@
 #1.py
 
      - It starts to download the video mentioned in _url_,with ydl_opts as the parameter.
-     -  It will create a json file a.json which gets re written every time,you can use it to create a custom logger and display it as realtime progress
-    -  The json is also printed in the terminal and cleared every time,so that you can see the realtime progress</td>
-    -  It will send a custom notification at 80 percent progress so that you can prepare the code, at 100 % or finished,a notification of 'file download ' will appear to notify you that the file has been downloaded </td>
+     -  It will create a json file a.json which gets re written every time,you can use it
+     to create a custom logger and display it as realtime progress
+    -  The json is also printed in the terminal and cleared every time,so that you can see 
+    the realtime progress</td>
+    -  It will send a custom notification at 80 percent progress so that you can prepare the 
+    code,at 100 % or finished,a notification of 'file download ' will appear to notify you 
+    that the file has been downloaded </td>
 
 
 #2.py
@@ -27,13 +31,17 @@
       _process=0
       _len=len(_url_)
       
-      It starts with _url_[0],_process=1,so as soon it reaches 95 %, _url_[1] is started,_process=2  as _url_[0] will soon finish,
+      It starts with _url_[0],_process=1,so as soon it reaches 95 %, _url_[1] is started,
+      _process=2  as _url_[0] will soon finish,
       As soon as _url[0] completes that thread will end
       
-      As soon as _url_[1] reaches 95 % the same things occurs and a process is again started which starts _url_[2],_process=3
+      As soon as _url_[1] reaches 95 % the same things occurs and a process is again started 
+      which starts _url_[2],_process=3
+      
       As soon as _url_[1] completes and this thread is stopped,
       
-      As soon as _url_[2] reaches 95 %,the invoker will stop as _process+=1 will make it 4 and _len=3,so the entire process will      terminate as _url_[2] completes
+      As soon as _url_[2] reaches 95 %,the invoker will stop as _process+=1 will make it 4 and
+      _len=3,so the entire process will      terminate as _url_[2] completes
       
       
       This is a form of looping,while loop to be exact,but has to handled

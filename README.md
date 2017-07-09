@@ -153,7 +153,7 @@ ans. I like it,in a way if I was either of them I would have directly added thes
       Instead I maintain my own part,some other developers have also tried their way using
       mavern,pom,etc and succeded.
       
-      If you are still not convinced take a look here  (https://github.com/rg3/youtube-dl/issues/10975)
+If you are still not convinced take a look here  https://github.com/rg3/youtube-dl/issues/10975
       
       
       

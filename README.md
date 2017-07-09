@@ -1,7 +1,5 @@
 
-<br> Want to embed youtube-dl,this is some of the ways I do it </br>
-
-
+ Want to embed youtube-dl,this is some of the ways I do it 
 <table>
 	
 		<tr>

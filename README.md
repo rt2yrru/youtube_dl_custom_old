@@ -2,7 +2,7 @@
 
     Want to embed youtube-dl,this is some of the ways I do it 
     
-#1.py
+#1.py (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py)
 
      - It starts to download the video mentioned in _url_,with ydl_opts as the parameter.
      -  It will create a json file a.json which gets re written every time,you can use it
@@ -14,7 +14,7 @@
     that the file has been downloaded </td>
 
 
-#2.py
+#2.py (https://github.com/siddht1/youtube_dl_embed/blob/master/2.py)
 
     - It provides with meta data of a video/audio 
 
@@ -65,9 +65,9 @@
 
 #Usage    
 
-      -Make sure you have the source of youtube-dl,source:https://github.com/rg3/youtube-dl
+      -Make sure you have the source of youtube-dl,source: (https://github.com/rg3/youtube-dl)
       -Alternatively if you don`t have the source,but have a excutable copy as mentioned in 
-      https://github.com/rg3/youtube-dl/#installation   then simply copy the exectuable to your
+      (https://github.com/rg3/youtube-dl/#installation)   then simply copy the exectuable to your
       current folder,this will work for linux versions only,windows user will have to get the source.
       Example: 
                 - sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
@@ -92,14 +92,14 @@
 
                ---end--of---youtube-dl----
 	       
-	       In this folder copy 1.py and 2.py,as these will directly invoke  __main__.py 
+	       In this folder copy 1.py (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py) and 2.py (https://github.com/siddht1/youtube_dl_embed/blob/master/2.py),as these will directly invoke  __main__.py 
 	       then added any url inside _url_=[''] residing in 1.py or 2.py
 	       
 	       run "'python 1.py'"    or  "'python 2.py'"
 	       If you run 1.py
 	       
 	       -you must have got a json file "a.json",these stores your current progress realtime.
-	       Usage: https://github.com/siddht3/table_json_creator
+	       Usage: (https://github.com/siddht3/table_json_creator)
 	       -you must have got a notification,when the download reached 80%,90%,99% and when completed
 	       
 	      - you can now modify the code however you want

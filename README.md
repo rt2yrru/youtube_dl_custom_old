@@ -1,5 +1,4 @@
-<html>
-<body>
+
 <br> Want to embed youtube-dl,this is some of the ways I do it </br>
 
 <table align="center" border="1" cellpadding="1" cellspacing="1" style="width:500px">
@@ -33,6 +32,6 @@
 		</tr>
 	</tbody>
 </table>
-https://travis-ci.org/siddht1/youtube-dl.svg?branch=master
-</body>
-</html>
+![alt-tag](https://travis-ci.org/siddht1/youtube-dl.svg?branch=master)
+
+

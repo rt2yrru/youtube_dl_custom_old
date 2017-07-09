@@ -53,3 +53,47 @@
 <td><img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
 </tr>
 </table> 
+
+
+#Usage    
+
+      -Make sure you have the source of youtube-dl,source:https://github.com/rg3/youtube-dl
+      -Alternatively if you don`t have the source,but have a excutable copy as mentioned in https://github.com/rg3/youtube-dl/#installation   then simply copy the exectuable to your current folder,this will work for linux versions only,windows user will have to get the source.
+      Example: 
+                - sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+               -  sudo chmod a+rx /usr/local/bin/youtube-dl 
+	       
+	       These commands were the one you already did,then once run "sudo youtube-dl -U" to update to the latest
+	       then get your current path,
+	       perform these steps
+	       
+	       - cp /usr/local/bin/youtube-dl   /[your_current_path]
+	       rename youtube-dl to youtube-dl.zip
+	       -unzip youtube-dl.zip
+	       
+	       As soon as you unzip,naviagate to the folder which has youtube-dl,
+	       
+	       the directory will look like 
+	       
+	       ----list--of---youtube-dl----------
+	       
+	       youtube_dl [folder]
+	       __main__.py  [main youtube-dl loader file]
+
+
+               ---end--of---youtube-dl----
+	       
+	       In this folder copy 1.py and 2.py,as these will directly invoke  __main__.py 
+	       then added any url inside _url_=[''] residing in 1.py or 2.py
+	       
+	       run "'python 1.py'"    or  "'python 2.py'"
+	       If you run 1.py
+	       
+	       -you must have got a json file "a.json",these stores your current progress realtime.Usage: https://github.com/siddht3/table_json_creator
+	       -you must have got a notification,when the download reached 80%,90%,99% and when completed
+	       
+	      - you can now modify the code however you want
+	       
+                	       
+	       
+      

@@ -58,18 +58,19 @@
 #Usage    
 
       -Make sure you have the source of youtube-dl,source:https://github.com/rg3/youtube-dl
-      -Alternatively if you don`t have the source,but have a excutable copy as mentioned in https://github.com/rg3/youtube-dl/#installation   then simply copy the exectuable to your current folder,this will work for linux versions only,windows user will have to get the source.
+      -Alternatively if you don`t have the source,but have a excutable copy as mentioned in 
+      https://github.com/rg3/youtube-dl/#installation   then simply copy the exectuable to your
+      current folder,this will work for linux versions only,windows user will have to get the source.
       Example: 
                 - sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
                -  sudo chmod a+rx /usr/local/bin/youtube-dl 
 	       
-	       These commands were the one you already did,then once run "sudo youtube-dl -U" to update to the latest
-	       then get your current path,
-	       perform these steps
+	       These commands were the one you already did,then once run "sudo youtube-dl -U" to update to 
+	       the latest then get your current path, perform these steps
 	       
 	       - cp /usr/local/bin/youtube-dl   /[your_current_path]
 	       rename youtube-dl to youtube-dl.zip
-	       -unzip youtube-dl.zip
+	       -unzip youtube-dl.zip -d /[the_folder_you_want]
 	       
 	       As soon as you unzip,naviagate to the folder which has youtube-dl,
 	       
@@ -89,7 +90,8 @@
 	       run "'python 1.py'"    or  "'python 2.py'"
 	       If you run 1.py
 	       
-	       -you must have got a json file "a.json",these stores your current progress realtime.Usage: https://github.com/siddht3/table_json_creator
+	       -you must have got a json file "a.json",these stores your current progress realtime.
+	       Usage: https://github.com/siddht3/table_json_creator
 	       -you must have got a notification,when the download reached 80%,90%,99% and when completed
 	       
 	      - you can now modify the code however you want

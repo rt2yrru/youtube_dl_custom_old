@@ -3,7 +3,7 @@
 
 
 <table>
-	<tbody>
+	
 		<tr>
 			<td> It starts to download the video mentioned in _url_,with ydl_opts as the parameter.</td>
 			<td>It will create a json file a.json which gets re written every time,you can use it to create a custom logger and display it as realtime progress</td>
@@ -12,7 +12,6 @@
 			
 		</tr>
 		
-	</tbody>
 </table>
 <img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status">
 

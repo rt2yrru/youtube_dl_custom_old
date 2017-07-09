@@ -57,8 +57,8 @@ ydl_opts ={
     'logger': MyLogger(),
     'progress_hooks': [my_hook],
 }
-_url_=['']
-#_url_.append('')
+_url_=['']  # undeclared list ,you can add your own url
+#_url_.append('')  # append to list _url_ ,you can add more url to the existing list,remove #
 _len=len(_url_)
 #_url_=input("\n Enter the video url :")
 #_i=len(_url_)
@@ -67,12 +67,13 @@ _len=len(_url_)
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     for item in _url_: 
         _a_+=1 
-        if _a_>_len+1 :
+        if _a_ <= _len :
              ydl.download([item]) 
               _str_="downloading "+str(_a_)+" of "+str(len(_url_))
               os.system('notify-send '+_str_) 
          else:
-            _str_=" Error occured "
+            _str_=" error occured as counter exceed the length of list "
+            print(_str_)
             os.system('notify-send '+_str_) 
    
     

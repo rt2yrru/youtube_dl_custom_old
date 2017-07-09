@@ -1,16 +1,8 @@
 
 <br> Want to embed youtube-dl,this is some of the ways I do it </br>
 
-<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:500px">
-	<thead>
-		<tr>
-			<th scope="row">1.py</th>
-		</tr>
-	</thead>
-	
-</table>
 
-<table align="center" border="1" ">
+<table align="center">
 	<tbody>
 		<tr>
 			<td> It starts to download the video mentioned in _url_,with ydl_opts as the parameter.</td>

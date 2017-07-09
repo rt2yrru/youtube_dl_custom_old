@@ -116,6 +116,50 @@
 	       
 	          - you can now modify the code however you want
 	       
+	       
+	      
+#Other-Works 
+
+1. (https://github.com/siddht1/youtube_dl_java_old)
+
+             
+              -using youtube-dl via java i.e youtube-dl-java -> jvm -> python -> youtube-dl
+	      
+2 .()    
+
+
+               - using youtube-dl via c and c++
+	       - currently testing their behaviour
+	       
+
+#Question and answers
+
+Q1. Why create this repo?
+ans. I am already intrigured by what youtube-dl can do,so i simply extend it a bit.You can read 
+https://github.com/siddht1/youtube-dl#embedding-youtube-dl
+
+Q2. Why not push it?
+ans. I am simply expanding https://github.com/siddht1/youtube-dl#embedding-youtube-dl.
+
+Q3. Youtube-dl but you are neither a contributor or maintainer?
+ans. I like it,in a way if I was either of them I would have directly added these over 
+     there.But I like it that way.
+     
+ Q4. Not even a single push in youtube-dl?
+ ans. I have tried pushing but turns out that were un necessary.
+ 
+ Q5. Youtube-dl in java but no one knows in youtube-dl?
+ ans. youtube-dl community knows about that,but that was unnecessary as youtube-dl is in python.
+      Instead I maintain my own part,some other developers have also tried their way using
+      mavern,pom,etc and succeded.
+      
+      If you are still not convinced take a look here  (https://github.com/rg3/youtube-dl/issues/10975)
+      
+      
+      
+     
+
+	       
                 	       
 	       
       

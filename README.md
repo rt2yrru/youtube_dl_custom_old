@@ -32,6 +32,6 @@
 		</tr>
 	</tbody>
 </table>
-![alt-tag](https://travis-ci.org/siddht1/youtube-dl.svg?branch=master)
+<img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status">
 
 

@@ -58,25 +58,12 @@ ydl_opts ={
     'progress_hooks': [my_hook],
 }
 _url_=[]
-
-#_url_=input("\n Enter the video url :")
-
 _t_a_=raw_input(" Enter the text file  : ")
 _fab=str(_t_a_)
 fr = open(_fab, "r") #file read
 for line in fr:
     _url_.append(line)
 _i=len(_url_)
-#list  #1 
-
-#list  #2
-#1: http://www.xvideos.com/video28243223/_cock_ninja_studios_sister_brother_play_video_games_and_fuck_part_1_of_2
-#2: http://www.xvideos.com/video27543849/_cock_ninja_studios_little_sister_discovers_brother_s_secret_part_1_of_3
-
-#waiting list
-# 1.  https://spankbang.com/1cg49/video/xev+bellringer+princess+leia+mommy+s+ball+draining+treatment
-
-
 
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     for item in _url_: 

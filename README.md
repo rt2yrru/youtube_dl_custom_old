@@ -23,8 +23,9 @@
      #_url_.append('')  # append to list _url_ ,you can add more url to the existing list,remove #
       _len=len(_url_)
       
-      For _url=[] ,this is a python type list , (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py#L60)
-      
+      For _url=[] ,this is a python type list , 
+ (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py#L60) 
+ 
       Here you can declare all your url 
       
       example : _url=['url1','url2']   and so one 
@@ -38,10 +39,12 @@
        
        will make _url=['url1','url2','url3']  
       
-     
-     
+
+ 
      At 80 %   code part :
-           _str=str(d['_percent_str'])
+ (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py#L39-L49)        
+     
+       _str=str(d['_percent_str'])
         _strr=_str.replace("%", "")
         _float=float(_strr)
         if _float==80:
@@ -70,6 +73,9 @@
      : A message will appear  " Enter the text file  :  "
      : Enter the file name,be sure to also provide the file format.example: 1.txt 
      : From here everything is similar to what you see in 1.py
+     
+     
+       This is quite similar to "youtube-dl -a  [text_file]"
 
 		
 
@@ -98,15 +104,7 @@
       
       
       This is a form of looping,while loop to be exact,but has to handled
-
-
-#Next 2
-
-       - Add a script which will read a text file and download files based on the text file.
-       
-       This script is almost ready and will soon be uploaded as 3.py
-       
-       This is quite similar to "youtube-dl -a  [text_file]"
+     
 
 #BUILD
 

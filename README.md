@@ -20,7 +20,7 @@
 
 		
 
-#Next
+#Next 1
 
       - Add a script which will start a new download as soon as the status reaches 95 %
       - This way the time taken to convert the video,start a new download can be avoided
@@ -46,6 +46,14 @@
       
       This is a form of looping,while loop to be exact,but has to handled
 
+
+#Next 2
+
+       - Add a script which will read a text file and download files based on the text file.
+       
+       This script is almost ready and will soon be uploaded as 3.py
+       
+       This is quite similar to "youtube-dl -a  [text_file]"
 
 #BUILD
 

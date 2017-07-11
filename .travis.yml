@@ -12,6 +12,5 @@ install:
 - true # use this to skip the install step or add any commands required to install your project dependencies
 
 script:
-- python 1.py
-- python 2.py
-- python 3.py # or any other command you'd like to run your tests with
+- python test.py
+ # or any other command you'd like to run your tests with

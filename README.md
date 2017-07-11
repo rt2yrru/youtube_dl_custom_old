@@ -119,6 +119,11 @@
 <td> Build Status</td>
 <td><img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
 </tr>
+<tr>
+<td> youtube-dl-embedd project </td>
+<td> Build Status</td>
+<td><img src="https://travis-ci.org/siddht1/youtube_dl_embed.svg?branch=master" alt="youtube-dl-embedd build status"></td>
+</tr>
 </table> 
 
 

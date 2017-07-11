@@ -1,6 +1,39 @@
 # Purpose
 
     Want to embed youtube-dl,this is some of the ways I do it 
+
+
+
+#BUILD
+
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td>  rg3:youtube-dl </td>
+<td> Build Status</td>
+<td><img src="https://travis-ci.org/rg3/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
+</tr>
+<tr>
+<td> siddht1:youtube-dl (fork) </td>
+<td> Build Status</td>
+<td><img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
+</tr>
+<tr>
+<td> youtube-dl-embedd project </td>
+<td> Build Status</td>
+<td><img src="https://travis-ci.org/siddht1/youtube_dl_embed.svg?branch=master" alt="youtube-dl-embedd build status"></td>
+</tr>
+</table> 
+
+
+#Thanks
+
+      - Thanks @yan12125 (youtube-dl contributor/maintainer) for your help to extend this utility
+
+      - Thanks Carla Iriberri (Travis Builder) for helping me fixing the builds for TRAVIS CI
+
+      
+
+
     
 # 1.py (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py)
 
@@ -106,25 +139,6 @@
       This is a form of looping,while loop to be exact,but has to handled
      
 
-#BUILD
-
-<table width="100%"   align="center"  class="table_border_both">
-<tr class="heading_table_top">
-<td>  rg3:youtube-dl </td>
-<td> Build Status</td>
-<td><img src="https://travis-ci.org/rg3/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
-</tr>
-<tr>
-<td> siddht1:youtube-dl (fork) </td>
-<td> Build Status</td>
-<td><img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
-</tr>
-<tr>
-<td> youtube-dl-embedd project </td>
-<td> Build Status</td>
-<td><img src="https://travis-ci.org/siddht1/youtube_dl_embed.svg?branch=master" alt="youtube-dl-embedd build status"></td>
-</tr>
-</table> 
 
 
 #Usage    

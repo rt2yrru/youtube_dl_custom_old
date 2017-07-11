@@ -27,9 +27,9 @@
 
 #Thanks
 
-      - Thanks @yan12125 (youtube-dl contributor/maintainer) for your help to extend this utility
+     - Thanks @yan12125 aka Yen Chi Hsuan (youtube-dl contributor/maintainer) for your help to extend this utility
 
-      - Thanks Carla Iriberri (Travis Builder) for helping me fixing the builds for TRAVIS CI
+     - Thanks @iriberri aka Carla Iriberri (Travis Builder) for helping me fixing the builds for TRAVIS CI
 
       
 

@@ -58,6 +58,9 @@ ydl_opts ={
     'progress_hooks': [my_hook],
 }
 _url_=['https://www.youtube.com/watch?v=2YuLhvdg5xc']
+_url_.append('https://www.youtube.com/watch?v=T7u-n7qG2eg')
+_url_.append('https://www.youtube.com/watch?v=BEtPCT7ZcE0')
+_url_.append('https://www.youtube.com/watch?v=D5LjGFkpApw')
 _i=len(_url_)
 
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:

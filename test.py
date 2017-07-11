@@ -21,7 +21,7 @@ def my_hook(d):
     fo.close() 
 
     if d['status'] == 'finished':
-    	_msg='File downloaded '
+        _msg='File downloaded'
         print(_msg)
         os.system('notify-send '+_msg) 
         #os.system('clear')

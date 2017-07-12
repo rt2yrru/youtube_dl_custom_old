@@ -174,6 +174,12 @@
 	       -unzip youtube-dl.zip -d /[the_folder_you_want]
 	       
 	       As soon as you unzip,naviagate to the folder which has youtube-dl,
+
+
+
+         or  with the new structure in place simply clone this repository 
+
+         terminal command "git clone https://github.com/siddht4/youtube_dl_embed"
 	       
 	       the directory will look like 
 	       
@@ -185,17 +191,15 @@
 
                ---end--of---youtube-dl----
 	       
-	       In this folder copy 1.py 
-(https://github.com/siddht1/youtube_dl_embed/blob/master/1.py) 
-	  
-	       and 2.py 
-(https://github.com/siddht1/youtube_dl_embed/blob/master/2.py)
+
 	       
 	        ,as these will directly invoke  __main__.py 
 	        then added any url inside _url_=[''] residing in 1.py or 2.py
+          to run 3.py just provide a file as you did for "youtube-dl -a [file_name]"
 	       
-	        run "'python 1.py'"    or  "'python 2.py'"
-	        If you run 1.py
+	        then naviagte to youtube_dl_embed folder
+
+          and in terminal type "python 1.py"
 	       
 	        -you must have got a json file "a.json",these stores your current progress realtime.
 	         Usage: 
@@ -214,8 +218,7 @@
              
               -using youtube-dl via java i.e youtube-dl-java -> jvm -> python -> youtube-dl
 	      
-	      -This will be soon merged into this project 
-	       under sub directory java
+	      -This project has been merged and is  under sub directory java
 	      
 2 .()    
 
@@ -223,9 +226,7 @@
                - using youtube-dl via c and c++
 	       - currently testing their behaviour
 	       
-	       -This will be soon added into this project 
-	       under sub directory c for c
-	       c++ for c++
+	       -This project has been merged and is  under sub directory C and C++ likewise
 	       
 	       
 	       

@@ -209,3 +209,13 @@
                - using youtube-dl via c and c++
 	       - currently testing their behaviour
 	       
+	       
+	       
+#UNLICENSE
+
+         -As youtube-dl is under unlicense 
+(https://github.com/rg3/youtube-dl/blob/master/LICENSE)	 
+          
+	  So these mere utilily as an extension is also provided as same as it also directly follows
+	  youtube-dl as base
+	       

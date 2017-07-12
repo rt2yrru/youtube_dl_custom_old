@@ -1,5 +1,9 @@
 from __future__ import unicode_literals
-import os,json,youtube_dl
+import os,json,sys
+if __name__ == '__main__' and __package__ is None:
+    from os import sys, path
+    sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+    import youtube_dl
 _a_=0
 _faa='a'+'.json'
 fo = open(_faa, "w")
@@ -68,10 +72,10 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     for item in _url_: 
         _a_+=1 
         if _a_ <= _len :
-             ydl.download([item]) 
-              _str_="downloading "+str(_a_)+" of "+str(len(_url_))
-              os.system('notify-send '+_str_) 
-         else:
+             ydl.download([item])
+             os.system('notify-send '+item)
+             
+        else:
             _str_=" error occured as counter exceed the length of list "
             print(_str_)
             os.system('notify-send '+_str_) 

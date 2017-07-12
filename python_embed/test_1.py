@@ -1,5 +1,9 @@
 from __future__ import unicode_literals
-import os,json,youtube_dl
+import os,json,sys
+if __name__ == '__main__' and __package__ is None:
+    from os import sys, path
+    sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+    import youtube_dl
 _a_=0
 _faa='a'+'.json'
 fo = open(_faa, "w")
@@ -21,7 +25,7 @@ def my_hook(d):
     fo.close() 
 
     if d['status'] == 'finished':
-    	_msg='File downloaded '
+        _msg='File downloaded'
         print(_msg)
         os.system('notify-send '+_msg) 
         #os.system('clear')
@@ -57,12 +61,10 @@ ydl_opts ={
     'logger': MyLogger(),
     'progress_hooks': [my_hook],
 }
-_url_=[]
-_t_a_=raw_input(" Enter the text file  : ")
-_fab=str(_t_a_)
-fr = open(_fab, "r") #file read
-for line in fr:
-    _url_.append(line)
+_url_=['https://www.youtube.com/watch?v=2YuLhvdg5xc']
+_url_.append('https://www.youtube.com/watch?v=T7u-n7qG2eg')
+_url_.append('https://www.youtube.com/watch?v=BEtPCT7ZcE0')
+_url_.append('https://www.youtube.com/watch?v=D5LjGFkpApw')
 _i=len(_url_)
 
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
@@ -77,9 +79,7 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             _str_=" error occured as counter exceed the length of list"   
             print(_str_)
             os.system('notify-send '+_str_)  
-
-
-fr.close()  #file read is closed          
    
     
+ 
  

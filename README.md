@@ -41,7 +41,7 @@
      -  It will create a json file a.json which gets re written every time,you can use it
      to create a custom logger and display it as realtime progress
     -  The json is also printed in the terminal and cleared every time,so that you can see 
-    the realtime progress</td>
+    the realtime progress
     -  It will send a custom notification at 80 percent progress so that you can prepare the 
     code,at 100 % or finished,a notification of 'file download ' will appear to notify you 
     that the file has been downloaded 
@@ -170,7 +170,7 @@
 	       
 	       youtube_dl [folder]
 	       __main__.py  [main youtube-dl loader file]
-
+           youtube_dl_embed [folder]
 
                ---end--of---youtube-dl----
 	       
@@ -225,4 +225,11 @@
           
 	  So these mere utilily as an extension is also provided as same as it also directly follows
 	  youtube-dl as base
+
+
+#CHANGES
+      
+      To accompany futher works like integration of the script with php,java,c,c++ the required folder 
+      structure is done
+
 	       

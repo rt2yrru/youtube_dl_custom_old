@@ -203,11 +203,18 @@
              
               -using youtube-dl via java i.e youtube-dl-java -> jvm -> python -> youtube-dl
 	      
+	      -This will be soon merged into this project 
+	       under sub directory java
+	      
 2 .()    
 
 
                - using youtube-dl via c and c++
 	       - currently testing their behaviour
+	       
+	       -This will be soon added into this project 
+	       under sub directory c for c
+	       c++ for c++
 	       
 	       
 	       

@@ -9,18 +9,29 @@
 <table width="100%"   align="center"  class="table_border_both">
 <tr class="heading_table_top">
 <td>  rg3:youtube-dl </td>
+<td> TRAVIS CI </td>
 <td> Build Status</td>
 <td><img src="https://travis-ci.org/rg3/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
 </tr>
 <tr>
 <td> siddht1:youtube-dl (fork) </td>
+<td> TRAVIS CI </td>
 <td> Build Status</td>
 <td><img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
 </tr>
 <tr>
 <td> youtube-dl-embedd project </td>
+<td> TRAVIS CI </td>
 <td> Build Status</td>
 <td><img src="https://travis-ci.org/siddht1/youtube_dl_embed.svg?branch=master" alt="youtube-dl-embedd build status"></td>
+</tr>
+<td> youtube-dl-embedd project </td>
+<td> Coverity Scan  </td>
+<td> Coverity Scan Status</td>
+<td><a href="https://scan.coverity.com/projects/siddht4-youtube_dl_embed">
+  <img alt="Coverity Scan Build Status"
+       src="https://scan.coverity.com/projects/13144/badge.svg"/>
+</a></td>
 </tr>
 </table> 
 

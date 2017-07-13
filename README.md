@@ -1,7 +1,28 @@
 # Purpose
 
-    Want to embed youtube-dl,this is some of the ways I do it 
+    Want to embed youtube-dl,this is some of the ways I do it.
+    -Extend youtube-dl basic functions in python to be more flexible
+    - Call youtube-dl or youtube_dl_embed via java,c,c++
+    
+    
+#MEMBERS
 
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td> siddht4 </td>
+<td> project maintainer </td>
+<td> FULL ACESS</td>
+</tr>
+<td> siddht1 </td>
+<td> project maintainer,initial developer </td>
+<td> </td>
+</tr>
+<tr>
+<td> yan12125 </td>
+<td> youtube-dl project collaborator </td>
+<td> FULL ACESS </td>
+</tr>
+</table> 
 
 
 #BUILD
@@ -123,7 +144,7 @@
 
 		
 
-#Next 1
+#Next 1  aka 5.py
 
       - Add a script which will start a new download as soon as the status reaches 95 %
       - This way the time taken to convert the video,start a new download can be avoided
@@ -148,8 +169,16 @@
       
       
       This is a form of looping,while loop to be exact,but has to handled
-     
-
+      
+      
+#NEXt 3 aka 4.py
+       
+       - Parallel downloading from two url.
+       - Evenly divides url list into two lists
+       
+       Sample code :
+       
+     sample.py
 
 
 #Usage    

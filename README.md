@@ -23,7 +23,7 @@
 <td> youtube-dl-embedd project </td>
 <td> TRAVIS CI </td>
 <td> Build Status</td>
-<td><img src="https://travis-ci.org/siddht1/youtube_dl_embed.svg?branch=master" alt="youtube-dl-embedd build status"></td>
+<td><img src="https://travis-ci.org/siddht3/test_travis_ci.svg?branch=master" alt="youtube-dl-embedd build status"></td>
 </tr>
 <td> youtube-dl-embedd project </td>
 <td> Coverity Scan  </td>

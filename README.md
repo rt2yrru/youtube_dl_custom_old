@@ -51,8 +51,25 @@
 <td><a href="https://scan.coverity.com/projects/siddht4-youtube_dl_embed">
   <img alt="Coverity Scan Build Status"
        src="https://scan.coverity.com/projects/13144/badge.svg"/>
-</a></td>
+</a>
+</td>
 </tr>
+<tr>
+<td> youtube-dl-embed project </td>
+<td>  dependencies</td>
+<td> Dependencies Status</td>
+<td><img src="https://img.shields.io/david/expressjs/express.svg" alt="youtube-dl-embed dependencies"></td>
+
+</tr>
+<tr>
+<td> youtube-dl-embed project </td>
+<td>  License</td>
+<td> UNLICENSE</td>
+<td><img src="https://img.shields.io/badge/license-UNLICENSE-green.svg" alt="youtube-dl-embed UNLICENSE LICENSE"></td>
+
+</tr>
+
+
 </table> 
 
 

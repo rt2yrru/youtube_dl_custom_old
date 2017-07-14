@@ -3,24 +3,23 @@
     Want to embed youtube-dl,this is some of the ways I do it.
     -Extend youtube-dl basic functions in python to be more flexible
     - Call youtube-dl or youtube_dl_embed via java,c,c++
+    - Call youtube-dl or youtube_dl_embed via PHP
     
     
 #MEMBERS
 
 <table width="100%"   align="center"  class="table_border_both">
 <tr class="heading_table_top">
-<td> siddht4 </td>
+<td> siddht 4/1/3 </td>
 <td> project maintainer </td>
 <td> FULL ACESS</td>
 </tr>
-<td> siddht1 </td>
-<td> project maintainer,initial developer </td>
-<td> </td>
-</tr>
-<tr>
 <td> yan12125 </td>
 <td> youtube-dl project collaborator </td>
 <td> FULL ACESS </td>
+</tr>
+<tr>
+
 </tr>
 </table> 
 
@@ -242,6 +241,177 @@
 	         -you must have got a notification,when the download reached 80%,90%,99% and when completed
 	       
 	          - you can now modify the code however you want
+
+
+#USAGE - JAVA
+
+       If you would instead try the java one,then you would be using
+ (https://github.com/siddht4/youtube_dl_embed/blob/master/java/main.java)
+
+         as a base.
+
+         Requirments :- 
+
+         - python to run youtube-dl,youtube_dl_embed
+
+         - java to run main.java
+
+
+         How to do :-
+
+         - Make sure you have java installed 
+
+         - copy /java/main.java  to where would you like
+
+         - make necessary changes to (https://github.com/siddht4/youtube_dl_embed/blob/master/java/main.java#L11)
+
+         - run in terminal "javac main.java", this would create main.class,which is a class file,your main.java is compiled
+
+         - Now run "java main" to get the ouput from the compiled class file
+
+
+         Structure  :-
+
+         JAVA --> exec  ---> python ----> youtube-dl 
+
+         youtube-dl -> python -> exec --> JAVA
+
+
+#USAGE - C
+
+          If you would instead try the C  one,then you would be using
+ (https://github.com/siddht4/youtube_dl_embed/blob/master/c/1.c)
+
+         as a base.
+
+         Requirments :- 
+
+         - python to run youtube-dl,youtube_dl_embed
+
+         - c,I have used gcc,to test and built it
+
+
+         How to do :-
+
+         - Make sure you have c installed,if you are using linux make sure gcc is installed
+
+         - copy /c/1.c  to where would you like
+
+         - make necessary changes to (https://github.com/siddht4/youtube_dl_embed/blob/master/c/1.c)
+
+         - open terminal type the command as follows "gcc 1.c",this will compile 1.cc and create a.out file
+
+         - now in terminal type "./a.out [any_command]",for this once instead,try "./a.out youtube-dl -v"
+
+
+          Structure :- 
+
+          C  --> std [in]  ---> python ----> youtube-dl
+
+          youtube-dl --> python --> std [out] -- > C
+
+
+
+#USAGE - C++
+
+          If you would instead try the C++  one,then you would be using
+ (https://github.com/siddht4/youtube_dl_embed/blob/master/c++/link.cpp)
+
+         as a base.
+
+         Requirments :- 
+
+         - python to run youtube-dl,youtube_dl_embed
+
+         - c++,I have used g++,to test and built it
+
+
+         How to do :-
+
+         - Make sure you have c++ installed,if you are using linux make sure g++ is installed
+
+         - copy /c++/link.cpp  to where would you like
+
+         - copy (https://github.com/siddht4/youtube_dl_embed/blob/master/c%2B%2B/pstream.h),this the psteam.h
+          file/header to execute stdin and stdout for C++,this file opens streams to outside packages
+
+         - make necessary changes to (https://github.com/siddht4/youtube_dl_embed/blob/master/c%2B%2B/link.cpp)
+           especially (https://github.com/siddht4/youtube_dl_embed/blob/master/c%2B%2B/link.cpp#L8)
+           changes needed to be made in 'proc("ls", redi::pstreams::pstdout | redi::pstreams::pstderr)'
+           to something like proc '("youtube-dl -v ", redi::pstreams::pstdout | redi::pstreams::pstderr)''
+           so make necessary changes after 'proc("'' line only 
+
+         - then open terminal type the command as follows "g++ link.cpp",this will compile link.cpp and create a.out file
+
+         - now in terminal type "./a.out ", to see your ouput based on  '("youtube-dl -v ", redi::pstreams::pstdout | redi::pstreams::pstderr)''
+
+
+          Structure :- 
+
+          C++  --> pstream  ---> python ----> youtube-dl
+
+          youtube-dl --> python --> pstream -- > C++
+
+
+
+#USAGE - PHP
+
+          If you would instead try the PHP  one,then you would be using
+ (https://github.com/siddht4/youtube_dl_embed/blob/master/php/test.php)
+
+         as a base.
+
+         NOTE :-
+
+         - I am currently final testing PHP one so that a 
+
+         - form with video url is given which is posted using POST method,lets name it form.php
+
+         - a php which will sanitize data received via POST i.e URL,this will call exec function 
+           which will then execute youtube-dl,so meanwhile a table will be created which uses json
+           sample at (https://github.com/siddht3/table_json_creator)
+           which will show realtime log to user.
+
+         - As soon as it reaches 100 % or completed user will be redirtected to the downloaded link   
+
+
+         Requirments :- 
+
+         - python to run youtube-dl,youtube_dl_embed
+         
+         - php 7.0 
+
+         - nginx (PHP CGI) or Apache server .
+
+
+         How to do :-
+
+         - Make sure you have nginx,php installed and nginx configured to run PHP via FASTCGI
+
+         - copy /php/test.php  to where would you like
+
+         - For testing purpose I am calling (https://github.com/siddht4/youtube_dl_embed/blob/master/python_embed/2.py)
+            as it provides me with the metadata
+            You can repurpose it in anyway you would,especially $cmd 
+
+            '<?php
+             $cmd="python ../python_embed/test_2.py";
+             $out=shell_exec($cmd);
+             var_dump($out);
+             ?> '
+
+
+
+      
+
+
+          Structure :- 
+
+         PHP --> FAST CGI --> NGINX  --> PYTHON --> youtube-dl 
+
+         youtube-dl --> PYTHON --> NGINX --> FAST CGI  --> PHP
+
+
 	       
 	       
 	      
@@ -270,6 +440,7 @@
 	       
 #UNLICENSE
 
+
          -As youtube-dl is under unlicense 
 (https://github.com/rg3/youtube-dl/blob/master/LICENSE)	 
           
@@ -279,7 +450,87 @@
 
 #CHANGES
       
-      To accompany futher works like integration of the script with php,java,c,c++ the required folder 
-      structure is done
+      -To accompany futher works like integration of the script with php,java,c,c++ the required folder 
+      structure is done.
+
+
+#TODO
+
+       -Clean this readme file 
+
+       -Push the php code,it will be under php_dashboard
+
+       -Push 4.py i.e double downloading i.e parallel 2 process of youtube-dl
+
+       -Push 5.py i.e serial downlading from two url 
+          At 95% of the first process (process #1),process #2 will begin the next 
+          download of the URL found in  '_url_ ' list. 
+          As soon as the first process reaches 100 %,this process will exit and only
+          process #2 will be present.
+          As process #2 reaches 95 %,process #3 (rebirth of process #1) will start the next download of the URL
+          in the link
+
+          and the chain follows.
+          So to say even process is always #2,odd process is always process #1 in ideal situation
+
+
+          Some cases :-
+
+         Case 1:
+
+            Synopsis 
+
+            '_url_=['a','b','c','d','e','f']'
+
+            a is 95 MB,b is 10 mb,c is 100 mb ,d is 1 GB ,e is 10 MB,f is 20 MB
+
+            As a i.e process #1 reaches 95 % i.e 90.25 MB
+             process #2 will start b,
+             process #1 will terminate after reaching 100 % and completing the file
+
+
+             Currently two process process are running  #1,#2 
+
+             As process #2 reaches 95 % i.e 9.5 MB
+              process #3 will start c
+
+              Currently three process are running process #1,#2,#3
+
+              Sooner or later #1,#2 reaches 100 % and both process exists
+
+
+
+              So if I instead used the earlier design of 5.py
+
+              - it would had process #1 had started 
+              - at 95 % ,process #2 would have started
+              - process #1 reaching 100% and finishing would start c
+              - meanwhile process #2 would have also ended as the file size is small
+
+              - so we see process #2 also starting c,if this happens c would surely get corrupted 
+                alongside  both process reaching deadlock,
+
+                so if anycase process #1 and process #2 would call the url, both will overwrite the same file.
+
+
+
+
+                Means to break this :-
+
+                -Implementing process kill or termination 
+
+                - Breaking the list of '_url_' to two smaller list,chances are the same would happen too
+
+
+
+
+
+
+
+
+
+
+
+
 
 	       

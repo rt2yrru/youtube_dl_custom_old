@@ -13,7 +13,7 @@ install:
 - true # use this to skip the install step or add any commands required to install your project dependencies
 
 script:
-- python python_embed/test_1.py
-- python python_embed/test_2.py
-- python python_embed/test_list.py
+- python test/test_1.py
+- python test/test_2.py
+- python test/test_list.py
  # or any other command you'd like to run your tests with

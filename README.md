@@ -11,12 +11,12 @@
 <table width="100%"   align="center"  class="table_border_both">
 <tr class="heading_table_top">
 <td> siddht 4/1/3 </td>
-<td> project maintainer </td>
-<td> FULL ACESS</td>
+<td> project maintainer,developer </td>
+<td> FULL ACCESS</td>
 </tr>
 <td> yan12125 </td>
-<td> youtube-dl project collaborator </td>
-<td> FULL ACESS </td>
+<td> youtube-dl -> project collaborator </td>
+<td> FULL ACCESS </td>
 </tr>
 <tr>
 
@@ -40,12 +40,12 @@
 <td><img src="https://travis-ci.org/siddht1/youtube-dl.svg?branch=master" alt="youtube-dl build status"></td>
 </tr>
 <tr>
-<td> youtube-dl-embedd project </td>
+<td> youtube-dl-embed project </td>
 <td> TRAVIS CI </td>
 <td> Build Status</td>
-<td><img src="https://travis-ci.org/siddht3/test_travis_ci.svg?branch=master" alt="youtube-dl-embedd build status"></td>
+<td><img src="https://travis-ci.org/siddht4/youtube_dl_embed.svg?branch=master" alt="youtube-dl-embedd build status"></td>
 </tr>
-<td> youtube-dl-embedd project </td>
+<td> youtube-dl-embed project </td>
 <td> Coverity Scan  </td>
 <td> Coverity Scan Status</td>
 <td><a href="https://scan.coverity.com/projects/siddht4-youtube_dl_embed">
@@ -58,9 +58,21 @@
 
 #Thanks
 
-     - Thanks @yan12125 aka Yen Chi Hsuan (youtube-dl contributor/maintainer) for your help to extend this utility
 
-     - Thanks @iriberri aka Carla Iriberri (Travis Builder) for helping me fixing the builds for TRAVIS CI
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td>  @yan12125 </td>
+<td> Thanks  aka Yen Chi Hsuan (youtube-dl contributor/maintainer) for your help to extend this utility </td>
+
+</tr>
+<td> @iriberri </td>
+<td> Thanks  aka Carla Iriberri (Travis Builder) for helping me fixing the builds for TRAVIS CI </td>
+
+</tr>
+<tr>
+
+</tr>
+</table>      
 
       
 

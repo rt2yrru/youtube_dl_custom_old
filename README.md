@@ -1,10 +1,22 @@
-# Purpose
+#Purpose
 
-    Want to embed youtube-dl,this is some of the ways I do it.
-    -Extend youtube-dl basic functions in python to be more flexible
-    - Call youtube-dl or youtube_dl_embed via java,c,c++
-    - Call youtube-dl or youtube_dl_embed via PHP
-    
+ 
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td> Want to embed youtube-dl,this is some of the ways I do it.</td>
+</tr>
+<td>  Extend youtube-dl basic functions in python to be more flexible </td>
+</tr>
+<tr>
+<td> Call youtube-dl or youtube_dl_embed via java </td>
+</tr>
+<tr>
+<td> Call youtube-dl or youtube_dl_embed via c,c++ </td>
+</tr>
+<tr>
+<td>  Call youtube-dl or youtube_dl_embed via PHP </td>
+</tr>
+</table>   
     
 #MEMBERS
 
@@ -14,6 +26,7 @@
 <td> project maintainer,developer </td>
 <td> FULL ACCESS</td>
 </tr>
+<tr>
 <td> yan12125 </td>
 <td> youtube-dl -> project collaborator </td>
 <td> FULL ACCESS </td>
@@ -446,41 +459,60 @@
 	      
 #Other-Works 
 
-1. (https://github.com/siddht1/youtube_dl_java_old)
 
-             
-              -using youtube-dl via java i.e youtube-dl-java -> jvm -> python -> youtube-dl
-	      
-	      -This project has been merged and is  under sub directory java
-	      
-(https://github.com/siddht4/youtube_dl_embed/tree/master/java)	      
-	      
-2 .()    
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td> Project Name   </td>
+<td> Purpose </td>
+<td> Info </td>
+</tr>
+<tr>
+<td>  youtube_dl_java (https://github.com/siddht1/youtube_dl_java_old)</td>
+<td> using youtube-dl via java i.e youtube-dl-java -> jvm -> python -> youtube-dl </td>
+<td>  This project has been merged and is  under sub directory java (https://github.com/siddht4/youtube_dl_embed/tree/master/java)	 </td>
+<td> </td>
+</tr>
+<tr>
+<td> () </td>
+<td>   using youtube-dl via c and c++ </td>
+<td> - currently testing their behaviour  </td>
+<td> This project has been merged and is  under sub directory C and C++ likewise (https://github.com/siddht4/youtube_dl_embed/tree/master/c)	
+(https://github.com/siddht4/youtube_dl_embed/tree/master/c++)</td>
 
+</tr>
 
-               - using youtube-dl via c and c++
-	       - currently testing their behaviour
-	       
-	       -This project has been merged and is  under sub directory C and C++ likewise
-	       
-(https://github.com/siddht4/youtube_dl_embed/tree/master/c)	
-(https://github.com/siddht4/youtube_dl_embed/tree/master/c++)
+</table>  
 
 	       
 #UNLICENSE
 
-
-         -As youtube-dl is under unlicense 
 (https://github.com/rg3/youtube-dl/blob/master/LICENSE)	 
-          
-	  So these mere utilily as an extension is also provided as same as it also directly follows
-	  youtube-dl as base
+          	  
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td> As youtube-dl is under unlicense, So these mere utilily as an extension is also provided as same as it also directly follows
+	  youtube-dl as base</td>
+</tr>
+<tr>
+</tr>
+
+</table>  	  
+
 
 
 #CHANGES
       
-      -To accompany futher works like integration of the script with php,java,c,c++ the required folder 
-      structure is done.
+
+ 
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td> To accompany futher works like integration of the script with php,java,c,c++ the required folder 
+      structure is done</td>
+</tr>
+<tr>
+</tr>
+
+</table>        
 
 
 #TODO

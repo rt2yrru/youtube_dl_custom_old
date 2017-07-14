@@ -67,7 +67,8 @@
 
 
     
-# 1.py (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py)
+# 1.py (https://github.com/siddht4/youtube_dl_embed/blob/master/python_embed/1.py)
+
 
      - It starts to download the video mentioned in _url_,with ydl_opts as the parameter.
      -  It will create a json file a.json which gets re written every time,you can use it
@@ -89,7 +90,8 @@
       _len=len(_url_)
       
       For _url=[] ,this is a python type list , 
- (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py#L60) 
+
+ (https://github.com/siddht4/youtube_dl_embed/blob/master/python_embed/1.py#L60)
  
       Here you can declare all your url 
       
@@ -107,7 +109,8 @@
 
  
      At 80 %   code part :
- (https://github.com/siddht1/youtube_dl_embed/blob/master/1.py#L39-L49)        
+
+ (https://github.com/siddht4/youtube_dl_embed/blob/master/python_embed/1.py#L39-L49)
      
        _str=str(d['_percent_str'])
         _strr=_str.replace("%", "")
@@ -121,12 +124,14 @@
      
 
 
-# 2.py (https://github.com/siddht1/youtube_dl_embed/blob/master/2.py)
+# 2.py (https://github.com/siddht4/youtube_dl_embed/blob/master/python_embed/2.py)
+
 
     - It provides with meta data of a video/audio 
     
     
-# 3.py   (https://github.com/siddht1/youtube_dl_embed/blob/master/3.py) 
+# 3.py  (https://github.com/siddht4/youtube_dl_embed/blob/master/python_embed/3.py)
+
 
       This is a mere upgradation of 1.py so that one can simply enter a text file which has 
       all the url.
@@ -249,6 +254,8 @@
 	      
 	      -This project has been merged and is  under sub directory java
 	      
+(https://github.com/siddht4/youtube_dl_embed/tree/master/java)	      
+	      
 2 .()    
 
 
@@ -257,7 +264,9 @@
 	       
 	       -This project has been merged and is  under sub directory C and C++ likewise
 	       
-	       
+(https://github.com/siddht4/youtube_dl_embed/tree/master/c)	
+(https://github.com/siddht4/youtube_dl_embed/tree/master/c++)
+
 	       
 #UNLICENSE
 

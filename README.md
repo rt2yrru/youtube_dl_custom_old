@@ -104,7 +104,22 @@
 </tr>
 </table>      
 
-      
+ #VERSION
+
+ <table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td> youtube-dl </td>
+<td> 2017.07.15</td>
+
+</tr>
+<td> in youttube-dl [folder] </td>
+<td> in __main__.py  [python file] </td>
+
+</tr>
+<tr>
+
+</tr>
+</table>        
 
 
     

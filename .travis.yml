@@ -19,5 +19,6 @@ script:
 - python test/test_1.py
 - python test/test_2.py
 - python test/test_list.py
-- java java/main.java
+- javac java/main.java
+-java java/main
  # or any other command you'd like to run your tests with

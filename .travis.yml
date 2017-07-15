@@ -7,7 +7,10 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
-
+addons:
+  apt:
+    packages:
+      - oracle-java8-set-default
 
 install:
 - true # use this to skip the install step or add any commands required to install your project dependencies
@@ -16,4 +19,5 @@ script:
 - python test/test_1.py
 - python test/test_2.py
 - python test/test_list.py
+- java java/main.java
  # or any other command you'd like to run your tests with

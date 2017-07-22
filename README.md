@@ -1,3 +1,25 @@
+#NOTICE
+
+
+     
+
+<table width="100%"   align="center"  class="table_border_both">
+<tr class="heading_table_top">
+<td> Updated youtube-dl to  2017.07.23</td>
+</tr>
+<td>  This project has some issues,so is delayed </td>
+</tr>
+<tr>
+<td> Cleaning will take place soon </td>
+</tr>
+<tr>
+<td>  a well documented html is in progress</td>
+</tr>
+<tr>
+<td>  The next major version will be 0.2 soon,which will have new feature and exception handling</td>
+</tr>
+</table>   
+
 #Purpose
 
  
@@ -32,14 +54,13 @@
 <td> FULL ACCESS </td>
 </tr>
 <tr>
-
 </tr>
 </table> 
 
 
 #BUILD
 
-<table width="100%"   align="center"  class="table_border_both">
+<table width="100%"   alitmgn="center"  class="table_border_both">
 <tr class="heading_table_top">
 <td>  rg3:youtube-dl </td>
 <td> TRAVIS CI </td>
@@ -109,7 +130,7 @@
  <table width="100%"   align="center"  class="table_border_both">
 <tr class="heading_table_top">
 <td> youtube-dl </td>
-<td> 2017.07.15</td>
+<td>  2017.07.23</td>
 
 </tr>
 <td> in youttube-dl [folder] </td>

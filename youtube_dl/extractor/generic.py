@@ -36,7 +36,10 @@ from .brightcove import (
     BrightcoveLegacyIE,
     BrightcoveNewIE,
 )
-from .nexx import NexxIE
+from .nexx import (
+    NexxIE,
+    NexxEmbedIE,
+)
 from .nbc import NBCSportsVPlayerIE
 from .ooyala import OoyalaIE
 from .rutv import RUTVIE
@@ -2154,6 +2157,11 @@ class GenericIE(InfoExtractor):
         nexx_urls = NexxIE._extract_urls(webpage)
         if nexx_urls:
             return self.playlist_from_matches(nexx_urls, video_id, video_title, ie=NexxIE.ie_key())
+
+        # Look for Nexx iFrame embeds
+        nexx_embed_urls = NexxEmbedIE._extract_urls(webpage)
+        if nexx_embed_urls:
+            return self.playlist_from_matches(nexx_embed_urls, video_id, video_title, ie=NexxEmbedIE.ie_key())
 
         # Look for ThePlatform embeds
         tp_urls = ThePlatformIE._extract_urls(webpage)

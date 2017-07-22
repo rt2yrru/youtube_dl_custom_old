@@ -298,7 +298,10 @@ from .dw import (
 from .eagleplatform import EaglePlatformIE
 from .ebaumsworld import EbaumsWorldIE
 from .echomsk import EchoMskIE
-from .egghead import EggheadCourseIE
+from .egghead import (
+    EggheadCourseIE,
+    EggheadLessonIE,
+)
 from .ehow import EHowIE
 from .eighttracks import EightTracksIE
 from .einthusan import EinthusanIE
@@ -653,7 +656,10 @@ from .nextmedia import (
     AppleDailyIE,
     NextTVIE,
 )
-from .nexx import NexxIE
+from .nexx import (
+    NexxIE,
+    NexxEmbedIE,
+)
 from .nfb import NFBIE
 from .nfl import NFLIE
 from .nhk import NhkVodIE
@@ -762,6 +768,7 @@ from .pandoratv import PandoraTVIE
 from .parliamentliveuk import ParliamentLiveUKIE
 from .patreon import PatreonIE
 from .pbs import PBSIE
+from .pearvideo import PearVideoIE
 from .people import PeopleIE
 from .periscope import (
     PeriscopeIE,

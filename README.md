@@ -1,5 +1,7 @@
 #NOTICE
 
+[![Join the chat at https://gitter.im/youtube_dl_embed/Lobby](https://badges.gitter.im/youtube_dl_embed/Lobby.svg)](https://gitter.im/youtube_dl_embed/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
      
 

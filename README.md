@@ -18,6 +18,11 @@
 <tr>
 <td>  The next major version will be 0.2 soon,which will have new feature and exception handling</td>
 </tr>
+<tr>
+<td>
+<a href="https://gitter.im/youtube_dl_embed/Lobby"> youtube_dl_embed chat </a>
+</td>
+</tr>
 </table>   
 
 #Purpose

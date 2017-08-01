@@ -2,8 +2,9 @@
 <table width="100%"   align="center"  class="table_border_both">
 <tr class="heading_table_top">
 	<td> Built Against </td>
-	</tr><tr>
-<td> https://img.shields.io/pypi/pyversions/mesh-networking.svg?style=flat-square</td>
+	</tr>
+	<tr>
+<td><img src="https://img.shields.io/pypi/pyversions/mesh-networking.svg?style=flat-square" alt="built against"></td>		
 </tr>
 </table.	
 

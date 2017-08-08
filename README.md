@@ -6,7 +6,7 @@
 	<tr>
 <td><img src="https://img.shields.io/pypi/pyversions/mesh-networking.svg?style=flat-square" alt="built against"></td>		
 </tr>
-</table.	
+</table>
 
 
 

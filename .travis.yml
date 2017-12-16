@@ -7,10 +7,7 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
-addons:
-  apt:
-    packages:
-      - oracle-java8-set-default
+
 
 install:
 - true # use this to skip the install step or add any commands required to install your project dependencies

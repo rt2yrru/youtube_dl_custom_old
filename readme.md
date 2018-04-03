@@ -1,4 +1,7 @@
-rejoice 
+rejoice :
+
+Added a test even-odd list structure where a giant list is split into two smaller list based on even -odd position.
+Number of parallel pools are 2.
 
 re structuring of this project is on the way
 

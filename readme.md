@@ -1,6 +1,6 @@
 Improved and structured code @
 
-https://github.com/siddht4/youtube-dl-custom-new
+https://github.com/siddht4/youtube-dl-embed
 
 
 
@@ -33,7 +33,7 @@ new language support
 check the old_readme.md file for all previous docs.
 
 
-DO check   https://github.com/siddht4/youtube_dl_embed_test/  
+DO check   https://github.com/siddht4/youtube-dl-embed
 to know the latest changes and updates. 
 
 branches : develop,master,active,youtube-dl,c,cpp,java,php,ruby

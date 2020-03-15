@@ -1,10 +1,8 @@
 language: python
 dist: trusty
 python:
-- "3.8"
-  allow_failures:
-    - python: nightly
-
+      - "3.8"
+ 
 install:
 - true # use this to skip the install step or add any commands required to install your project dependencies
 

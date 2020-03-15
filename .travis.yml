@@ -9,8 +9,8 @@ install:
 script:
 - pip list 
 - pip install youtube-dl
-- python test/test_1.py
-- python test/test_2.py
+# - python test/test_1.py
+# - python test/test_2.py
 - python test/test_check.py
 - python test/test_list.py
 

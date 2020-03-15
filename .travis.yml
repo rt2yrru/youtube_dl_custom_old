@@ -7,10 +7,10 @@ install:
 - true # use this to skip the install step or add any commands required to install your project dependencies
 
 script:
-# - python test/test_1.py
-# - python test/test_2.py
 - pip list 
 - pip install youtube-dl
+- python test/test_1.py
+- python test/test_2.py
 - python test/test_check.py
 - python test/test_list.py
 

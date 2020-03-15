@@ -24,6 +24,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Python upgrade
       run: |
-        python -m pip install --upgrade pip
+        python3 -m pip install --upgrade pip
         pip install youtube-dl
    
